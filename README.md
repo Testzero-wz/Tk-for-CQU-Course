@@ -14,7 +14,7 @@ An simple,humble GUI program for CQU, base on Python Tkinter
 
 + If you got an error when you Login, make sure your what you input are both correct and try again.
 + If the program no responese after you click **Login Button**, perhaps  our CQU teaching administration system were busy, plz wait a moment.
-
+---
 If your ID & password are correct, the seceond window will show up
 (Like this)
 
