@@ -8,7 +8,7 @@ title: README
 An simple,humble GUI program for CQU, base on Python Tkinter
 
 # Usage
- Input your student ID number & password into the entry, select what kind of courses you want(Defult is major course) and click ** Login Button **
+ Input your student ID number & password into the entry, select what kind of courses you want(Defult is major course) and click **Login Button**
 
 ![](https://github.com/WananpIG/Tk-for-CQU-Course/blob/master/_image/README/15-55-25.jpg)
 + If you got an error when you Login, make sure your what you input are both correct and try again.
