@@ -15,8 +15,8 @@ title: README
 </br>
 ![](https://github.com/WananpIG/Tk-for-CQU-Course/blob/master/_image/README/15-55-25.jpg)
 </br> 
-1.If you got an error when you Login, make sure your what you input are both correct and try again.
-2.If the program no responese after you click **Login Button**, perhaps  our CQU teaching administration system were busy, plz wait a moment.
++ If you got an error when you Login, make sure your what you input are both correct and try again.
++ If the program no responese after you click **Login Button**, perhaps  our CQU teaching administration system were busy, plz wait a moment.
 ## Second 
 If your ID & password are correct, the seceond window will show up
 (Like this)
@@ -35,24 +35,28 @@ Of course, there are some notes when the crawler thread didn't get info from ser
 
 ![](https://github.com/WananpIG/Tk-for-CQU-Course/blob/master/_image/README/16-59-02.jpg)
 </br> 
+
 You can select an item on the right side and it will be selected into **selected widget** which on the bottom of window
 </br>
+
 
 ![](https://github.com/WananpIG/Tk-for-CQU-Course/blob/master/_image/README/16-36-45.jpg)
 </br>
 
+
 At most,   only three courses can be selected and you can click the **Clear Button** remove all you selected.
 The refresh button offer a function which you can refresh  the course info by hand, but  I **highly recommend**  not using this feature when it is not necessary, it may cause a servere network congestion which is not good for you and other students .
 </br>
+
 
 Finally, click the **Submit Button** and the courses you selected will send to the server,  then it will automatically refresh once , you needn't refresh again .
 ![](https://github.com/WananpIG/Tk-for-CQU-Course/blob/master/_image/README/17-09-07.jpg)
 </br>
 
 ## Tips
-**There are no some alert or notice message when your  requests are successfully handled by servers or not .
-The only thing you can do is to wait for the message box on the left to update :)
-Ahahahahah**
+**There are no some alert or notice message when your  requests are successfully handled by servers or not .**
+**The only thing you can do is to wait for the message box on the left to update :)**
+**Ahahahahah**
 
 
 
