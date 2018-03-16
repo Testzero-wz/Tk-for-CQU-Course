@@ -72,23 +72,26 @@ def login(address, viewstate):
     url1 = 'http://' + address + '/_data/index_login.aspx'
     print address, "Processing"
     try:
-        login_html = requests.post(url1, data=data, headers=hea, timeout=5)
+        login_html = requests.post(url1, data=data, headers=hea, timeout=10)
+
     except:
-        cookie = {"Fail": "1"}
+
         print "The address", address, "may have been closed."
         return 0
     else:
-        if login_html.text.find("正在加载权限数据") == -1:
+        if login_html.text.find("账号或密码不正确")!=-1:
             print address, "Faild"
             cookie = {"Fail": "1"}
             return 0
-        else:
+        if login_html.text.find("正在加载权限数据")!=-1:
             print address, "Login"
             if cookie_lock.acquire() and 'Fail' in cookie.keys():
                 cookie = {c.name: c.value for c in login_html.cookies}
                 login_ip = re.findall("http://(.*?)/_data", login_html.url)[0]
                 cookie_lock.release()
             return address
+        cookie = {"Fail": "1"}
+        return -1
 #==================================================== Check Cookie =====================================================
 def checkCookie():
     '''
@@ -112,6 +115,8 @@ def login_submit(event=""):
     * param event: Button自带参数
     * return: Fail->-1;Success->0
     '''
+    global cookie
+    cookie = {'Fail': '0'}
     threads = []
     for i in uid.get():
         if i not in "0123456789":
@@ -471,9 +476,9 @@ if __name__ == "__main__":
     root.bind('<Return>', login_submit)
 
     #Start an thread for checking cookie
-    checkThread = threading.Thread(target=checkCookie)
-    checkThread.setDaemon(True)
-    checkThread.start()
+    # checkThread = threading.Thread(target=checkCookie)
+    # checkThread.setDaemon(True)
+    # checkThread.start()
     #Absolute size
     root.resizable(0, 0)
     root.mainloop()
