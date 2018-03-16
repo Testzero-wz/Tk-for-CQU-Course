@@ -31,9 +31,11 @@ Left box is about lesson list while right side box will contain the course detai
 When you double click on the item which is no about course(Like the first, second item), it will be a notice on the right window  
 </br>
 ![](https://github.com/WananpIG/Tk-for-CQU-Course/blob/master/_image/README/16-15-50.jpg)
+
 </br>
 Of course, there are some notes when the crawler thread didn't get info from servers .
 </br>
+
 ![](https://github.com/WananpIG/Tk-for-CQU-Course/blob/master/_image/README/16-59-02.jpg)
 </br>
 You can select an item on the right side and it will be selected into **selected widget** which on the bottom of window
