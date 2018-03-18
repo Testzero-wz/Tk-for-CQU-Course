@@ -80,7 +80,7 @@ def login(address, viewstate):
         return 0
     else:
         if login_html.text.find("账号或密码不正确")!=-1:
-            print address, "Faild"
+            print address, "Failed"
             cookie = {"Fail": "1"}
             return 0
         if login_html.text.find("正在加载权限数据")!=-1:
