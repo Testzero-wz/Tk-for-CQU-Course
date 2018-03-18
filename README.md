@@ -57,6 +57,7 @@ Finally, click the **Submit Button** and the courses you selected will send to t
 **There are no any alert message or notice  when your  requests are successfully handled by servers or not .**
 
 **The only thing you can do is  wait for the message box on the left to update :)**
+
 **Ahahahahah**
 
 
