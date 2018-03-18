@@ -54,8 +54,9 @@ Finally, click the **Submit Button** and the courses you selected will send to t
 </br>
 
 ## Tips
-**There are no any alert or notice message when your  requests are successfully handled by servers or not .**
-**The only thing you can do is to wait for the message box on the left to update :)**
+**There are no any alert message or notice  when your  requests are successfully handled by servers or not .**
+
+**The only thing you can do is  wait for the message box on the left to update :)**
 **Ahahahahah**
 
 
